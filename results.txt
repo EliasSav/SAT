@@ -1,0 +1,1160 @@
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 5          | 6      | UNSAT | 0.1135     | 121.3        | 446      | 0
+Rezolutie       | 5          | 10     | SAT   | 0.0699     | 75.1         | 198      | 0
+DP-Optimizat    | 5          | 2      | SAT   | 0.0001     | 1.7          | 0        | 0
+DP-Optimizat    | 5          | 6      | SAT   | 0.0011     | 7.9          | 3        | 0
+DP-Optimizat    | 5          | 10     | SAT   | 0.0002     | 3.0          | 1        | 0
+DP-Optimizat    | 5          | 14     | UNSAT | 0.1304     | 2065.2       | 3        | 0
+DP-Optimizat    | 5          | 18     | UNSAT | 0.2958     | 5092.7       | 3        | 1
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0162     | 381.0        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0299     | 725.1        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0013     | 5.5          | 2        | 0
+DPLL-First      | 5          | 10     | SAT   | 0.0003     | 3.0          | 1        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0025     | 8.1          | 2        | 0
+DPLL-First      | 5          | 18     | SAT   | 0.0036     | 10.8         | 3        | 0
+DPLL-First      | 5          | 22     | UNSAT | 0.0090     | 18.9         | 4        | 9
+DPLL-First      | 5          | 26     | SAT   | 0.0090     | 21.0         | 3        | 4
+DPLL-Random     | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0008     | 4.4          | 1        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0003     | 3.0          | 1        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0040     | 12.6         | 2        | 1
+DPLL-Random     | 5          | 18     | SAT   | 0.0056     | 15.2         | 2        | 1
+DPLL-Random     | 5          | 22     | UNSAT | 0.0096     | 18.9         | 4        | 9
+DPLL-Random     | 5          | 26     | SAT   | 0.0045     | 16.9         | 2        | 1
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0000     | 1.2          | 0        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0009     | 5.5          | 2        | 0
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0003     | 3.0          | 1        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0026     | 9.5          | 2        | 1
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0027     | 10.8         | 3        | 0
+DPLL-MOMS       | 5          | 22     | UNSAT | 0.0076     | 18.9         | 3        | 7
+DPLL-MOMS       | 5          | 26     | SAT   | 0.0090     | 20.9         | 3        | 4
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0014     | 5.8          | 2        | 0
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0003     | 3.2          | 1        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0033     | 9.8          | 2        | 1
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0036     | 13.7         | 4        | 1
+DPLL-VSIDS      | 5          | 22     | UNSAT | 0.0073     | 19.2         | 3        | 7
+DPLL-VSIDS      | 5          | 26     | SAT   | 0.0090     | 21.2         | 3        | 4
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/3 SAT (66.7%), 1/300.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-Random: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-MOMS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-VSIDS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 5          | 6      | UNSAT | 3.6827     | 828.3        | 1447     | 0
+Rezolutie       | 5          | 10     | SAT   | 0.5819     | 207.1        | 582      | 0
+DP-Optimizat    | 5          | 2      | SAT   | 0.0005     | 1.9          | 0        | 0
+DP-Optimizat    | 5          | 6      | UNSAT | 0.0025     | 21.3         | 4        | 0
+DP-Optimizat    | 5          | 10     | SAT   | 0.0006     | 6.1          | 2        | 0
+DP-Optimizat    | 5          | 14     | SAT   | 0.0082     | 193.0        | 2        | 0
+DP-Optimizat    | 5          | 18     | UNSAT | 0.0105     | 264.7        | 2        | 1
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0213     | 547.3        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0342     | 801.8        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0010     | 4.4          | 2        | 0
+DPLL-First      | 5          | 10     | SAT   | 0.0011     | 7.0          | 2        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0018     | 9.8          | 2        | 0
+DPLL-First      | 5          | 18     | SAT   | 0.0049     | 14.1         | 3        | 3
+DPLL-First      | 5          | 22     | UNSAT | 0.0072     | 18.3         | 3        | 7
+DPLL-First      | 5          | 26     | SAT   | 0.0111     | 22.8         | 4        | 5
+DPLL-Random     | 5          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0009     | 4.4          | 2        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0010     | 7.0          | 1        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0019     | 10.1         | 2        | 0
+DPLL-Random     | 5          | 18     | SAT   | 0.0051     | 15.8         | 3        | 1
+DPLL-Random     | 5          | 22     | UNSAT | 0.0076     | 18.6         | 3        | 7
+DPLL-Random     | 5          | 26     | SAT   | 0.0072     | 18.9         | 3        | 3
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0012     | 5.0          | 2        | 0
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0011     | 7.0          | 2        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0021     | 8.4          | 2        | 1
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0059     | 14.4         | 3        | 4
+DPLL-MOMS       | 5          | 22     | UNSAT | 0.0099     | 18.3         | 3        | 7
+DPLL-MOMS       | 5          | 26     | SAT   | 0.0048     | 16.1         | 2        | 1
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0013     | 5.3          | 2        | 0
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0012     | 7.2          | 2        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0020     | 8.4          | 2        | 0
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0051     | 14.4         | 3        | 3
+DPLL-VSIDS      | 5          | 22     | UNSAT | 0.0085     | 18.6         | 3        | 7
+DPLL-VSIDS      | 5          | 26     | SAT   | 0.0040     | 14.3         | 2        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/3 SAT (66.7%), 1/300.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-Random: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-MOMS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-VSIDS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 5          | 6      | SAT   | 0.0141     | 31.5         | 103      | 0
+Rezolutie       | 5          | 10     | SAT   | 0.3098     | 206.9        | 394      | 0
+DP-Optimizat    | 5          | 2      | SAT   | 0.0001     | 1.7          | 0        | 0
+DP-Optimizat    | 5          | 6      | SAT   | 0.0004     | 2.8          | 1        | 0
+DP-Optimizat    | 5          | 10     | SAT   | 0.0004     | 3.6          | 2        | 0
+DP-Optimizat    | 5          | 14     | UNSAT | 0.1033     | 1784.9       | 3        | 1
+DP-Optimizat    | 5          | 18     | SAT   | 0.0069     | 115.4        | 2        | 0
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0239     | 504.2        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0211     | 500.0        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0003     | 3.7          | 1        | 0
+DPLL-First      | 5          | 10     | SAT   | 0.0005     | 4.2          | 1        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0031     | 8.4          | 3        | 0
+DPLL-First      | 5          | 18     | SAT   | 0.0175     | 15.9         | 4        | 6
+DPLL-First      | 5          | 22     | UNSAT | 0.0100     | 18.9         | 3        | 7
+DPLL-First      | 5          | 26     | SAT   | 0.0078     | 21.0         | 3        | 3
+DPLL-Random     | 5          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0004     | 3.7          | 1        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0006     | 4.2          | 1        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0046     | 10.4         | 4        | 1
+DPLL-Random     | 5          | 18     | SAT   | 0.0033     | 12.1         | 2        | 1
+DPLL-Random     | 5          | 22     | UNSAT | 0.0077     | 18.9         | 3        | 7
+DPLL-Random     | 5          | 26     | SAT   | 0.0078     | 20.9         | 3        | 3
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0004     | 3.7          | 1        | 0
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0006     | 4.2          | 1        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0024     | 8.4          | 3        | 0
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0133     | 15.0         | 3        | 4
+DPLL-MOMS       | 5          | 22     | UNSAT | 0.0086     | 18.0         | 3        | 7
+DPLL-MOMS       | 5          | 26     | SAT   | 0.0083     | 20.9         | 3        | 3
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0003     | 3.9          | 1        | 0
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0006     | 4.5          | 1        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0022     | 8.7          | 3        | 0
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0074     | 15.3         | 4        | 4
+DPLL-VSIDS      | 5          | 22     | UNSAT | 0.0074     | 18.3         | 3        | 7
+DPLL-VSIDS      | 5          | 26     | SAT   | 0.0075     | 21.2         | 3        | 3
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 3/3 SAT (100.0%), 0/300.0% UNSAT
+  DP-Optimizat: 4/7 SAT (57.1%), 3/700.0% UNSAT
+  DPLL-First: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-Random: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-MOMS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-VSIDS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | UNSAT | 0.0061     | 21.4         | 84       | 0
+Rezolutie       | 5          | 6      | SAT   | 0.4206     | 196.0        | 506      | 0
+Rezolutie       | 5          | 10     | UNSAT | 0.2349     | 250.3        | 585      | 0
+DP-Optimizat    | 5          | 2      | UNSAT | 0.0003     | 2.1          | 3        | 0
+DP-Optimizat    | 5          | 6      | SAT   | 0.0003     | 3.2          | 1        | 0
+DP-Optimizat    | 5          | 10     | SAT   | 0.0004     | 4.5          | 2        | 0
+DP-Optimizat    | 5          | 14     | UNSAT | 0.0041     | 85.0         | 2        | 1
+DP-Optimizat    | 5          | 18     | UNSAT | 0.0195     | 465.2        | 2        | 1
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0212     | 409.6        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0367     | 788.2        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0003     | 2.4          | 1        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0010     | 5.4          | 2        | 1
+DPLL-First      | 5          | 10     | SAT   | 0.0005     | 5.8          | 1        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0028     | 11.8         | 3        | 1
+DPLL-First      | 5          | 18     | SAT   | 0.0023     | 11.4         | 2        | 0
+DPLL-First      | 5          | 22     | SAT   | 0.0065     | 18.6         | 4        | 3
+DPLL-First      | 5          | 26     | SAT   | 0.0103     | 20.6         | 3        | 4
+DPLL-Random     | 5          | 2      | SAT   | 0.0003     | 2.4          | 1        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0008     | 4.9          | 2        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0011     | 6.0          | 2        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0020     | 9.9          | 3        | 0
+DPLL-Random     | 5          | 18     | SAT   | 0.0074     | 17.2         | 5        | 5
+DPLL-Random     | 5          | 22     | SAT   | 0.0126     | 21.4         | 6        | 9
+DPLL-Random     | 5          | 26     | SAT   | 0.0075     | 20.6         | 3        | 3
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0003     | 2.4          | 1        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0011     | 5.4          | 2        | 1
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0005     | 5.8          | 1        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0018     | 8.2          | 2        | 0
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0023     | 10.0         | 2        | 0
+DPLL-MOMS       | 5          | 22     | SAT   | 0.0073     | 18.6         | 3        | 4
+DPLL-MOMS       | 5          | 26     | SAT   | 0.0098     | 20.6         | 3        | 4
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0003     | 2.7          | 1        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0007     | 5.7          | 2        | 1
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0008     | 6.1          | 1        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0026     | 10.5         | 2        | 1
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0021     | 10.3         | 2        | 0
+DPLL-VSIDS      | 5          | 22     | SAT   | 0.0075     | 18.9         | 3        | 4
+DPLL-VSIDS      | 5          | 26     | SAT   | 0.0085     | 20.9         | 3        | 4
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 1/3 SAT (33.3%), 2/300.0% UNSAT
+  DP-Optimizat: 2/7 SAT (28.6%), 5/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 5          | 6      | UNSAT | 0.1084     | 265.0        | 474      | 0
+Rezolutie       | 5          | 10     | UNSAT | 1.9875     | 757.6        | 974      | 0
+DP-Optimizat    | 5          | 2      | SAT   | 0.0001     | 1.7          | 0        | 0
+DP-Optimizat    | 5          | 6      | UNSAT | 0.0012     | 9.2          | 3        | 0
+DP-Optimizat    | 5          | 10     | SAT   | 0.1181     | 1904.2       | 4        | 0
+DP-Optimizat    | 5          | 14     | UNSAT | 0.3537     | 6518.5       | 3        | 1
+DP-Optimizat    | 5          | 18     | UNSAT | 0.7924     | 14174.5      | 3        | 1
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0231     | 494.6        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0317     | 602.1        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0004     | 5.2          | 1        | 0
+DPLL-First      | 5          | 10     | SAT   | 0.0011     | 6.9          | 2        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0045     | 13.2         | 3        | 3
+DPLL-First      | 5          | 18     | SAT   | 0.0051     | 16.2         | 2        | 1
+DPLL-First      | 5          | 22     | SAT   | 0.0109     | 19.5         | 4        | 3
+DPLL-First      | 5          | 26     | UNSAT | 0.0107     | 20.6         | 3        | 7
+DPLL-Random     | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0007     | 5.2          | 1        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0014     | 7.5          | 2        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0045     | 12.7         | 3        | 3
+DPLL-Random     | 5          | 18     | SAT   | 0.0028     | 10.3         | 2        | 0
+DPLL-Random     | 5          | 22     | SAT   | 0.0031     | 12.9         | 2        | 0
+DPLL-Random     | 5          | 26     | UNSAT | 0.0128     | 23.0         | 4        | 9
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0007     | 5.2          | 1        | 0
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0008     | 6.9          | 1        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0020     | 9.8          | 2        | 0
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0026     | 11.0         | 2        | 0
+DPLL-MOMS       | 5          | 22     | SAT   | 0.0030     | 12.9         | 2        | 0
+DPLL-MOMS       | 5          | 26     | UNSAT | 0.0107     | 20.6         | 3        | 7
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0007     | 5.5          | 1        | 0
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0008     | 7.1          | 1        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0028     | 12.6         | 2        | 1
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0029     | 11.2         | 2        | 0
+DPLL-VSIDS      | 5          | 22     | SAT   | 0.0030     | 13.1         | 2        | 0
+DPLL-VSIDS      | 5          | 26     | UNSAT | 0.0100     | 20.9         | 3        | 7
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 1/3 SAT (33.3%), 2/300.0% UNSAT
+  DP-Optimizat: 2/7 SAT (28.6%), 5/700.0% UNSAT
+  DPLL-First: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-Random: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-MOMS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-VSIDS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 5          | 6      | UNSAT | 0.0284     | 78.3         | 228      | 0
+Rezolutie       | 5          | 10     | UNSAT | 2.5689     | 829.5        | 1249     | 0
+DP-Optimizat    | 5          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DP-Optimizat    | 5          | 6      | SAT   | 0.0004     | 3.2          | 3        | 0
+DP-Optimizat    | 5          | 10     | UNSAT | 0.0557     | 839.9        | 3        | 0
+DP-Optimizat    | 5          | 14     | SAT   | 0.0042     | 64.3         | 4        | 0
+DP-Optimizat    | 5          | 18     | UNSAT | 0.0104     | 248.1        | 2        | 1
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0172     | 387.5        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0418     | 985.0        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0006     | 4.2          | 1        | 0
+DPLL-First      | 5          | 10     | SAT   | 0.0014     | 6.9          | 3        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0039     | 10.4         | 3        | 1
+DPLL-First      | 5          | 18     | SAT   | 0.0032     | 13.1         | 2        | 1
+DPLL-First      | 5          | 22     | SAT   | 0.0101     | 19.2         | 5        | 7
+DPLL-First      | 5          | 26     | UNSAT | 0.0131     | 23.0         | 4        | 9
+DPLL-Random     | 5          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0004     | 4.2          | 1        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0013     | 6.9          | 2        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0022     | 8.1          | 2        | 0
+DPLL-Random     | 5          | 18     | SAT   | 0.0027     | 10.3         | 2        | 0
+DPLL-Random     | 5          | 22     | SAT   | 0.0075     | 19.3         | 3        | 4
+DPLL-Random     | 5          | 26     | UNSAT | 0.0094     | 26.5         | 3        | 7
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0004     | 4.2          | 1        | 0
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0009     | 6.9          | 2        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0017     | 8.1          | 2        | 0
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0032     | 13.4         | 2        | 1
+DPLL-MOMS       | 5          | 22     | SAT   | 0.0080     | 18.0         | 3        | 3
+DPLL-MOMS       | 5          | 26     | UNSAT | 0.0083     | 20.2         | 3        | 7
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0004     | 4.5          | 1        | 0
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0009     | 7.1          | 2        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0018     | 8.4          | 2        | 0
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0024     | 11.1         | 2        | 0
+DPLL-VSIDS      | 5          | 22     | SAT   | 0.0076     | 18.7         | 3        | 4
+DPLL-VSIDS      | 5          | 26     | UNSAT | 0.0107     | 20.5         | 3        | 7
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 1/3 SAT (33.3%), 2/300.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-Random: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-MOMS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-VSIDS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 5          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 5          | 6      | SAT   | 0.0425     | 59.2         | 237      | 0
+Rezolutie       | 5          | 10     | UNSAT | 2.9088     | 829.5        | 1285     | 0
+DP-Optimizat    | 5          | 2      | SAT   | 0.0001     | 1.7          | 0        | 0
+DP-Optimizat    | 5          | 6      | SAT   | 0.0002     | 2.7          | 1        | 0
+DP-Optimizat    | 5          | 10     | SAT   | 0.0218     | 401.8        | 3        | 0
+DP-Optimizat    | 5          | 14     | UNSAT | 0.0049     | 95.4         | 4        | 0
+DP-Optimizat    | 5          | 18     | SAT   | 0.0151     | 379.3        | 2        | 0
+DP-Optimizat    | 5          | 22     | UNSAT | 0.0144     | 365.9        | 2        | 1
+DP-Optimizat    | 5          | 26     | UNSAT | 0.0295     | 664.3        | 2        | 1
+DPLL-First      | 5          | 2      | SAT   | 0.0000     | 1.2          | 0        | 0
+DPLL-First      | 5          | 6      | SAT   | 0.0002     | 2.5          | 1        | 0
+DPLL-First      | 5          | 10     | SAT   | 0.0011     | 6.9          | 2        | 0
+DPLL-First      | 5          | 14     | SAT   | 0.0019     | 9.8          | 3        | 0
+DPLL-First      | 5          | 18     | SAT   | 0.0066     | 15.5         | 4        | 5
+DPLL-First      | 5          | 22     | UNSAT | 0.0075     | 19.1         | 3        | 7
+DPLL-First      | 5          | 26     | UNSAT | 0.0114     | 25.9         | 3        | 7
+DPLL-Random     | 5          | 2      | SAT   | 0.0000     | 1.2          | 0        | 0
+DPLL-Random     | 5          | 6      | SAT   | 0.0002     | 2.5          | 1        | 0
+DPLL-Random     | 5          | 10     | SAT   | 0.0015     | 6.9          | 2        | 0
+DPLL-Random     | 5          | 14     | SAT   | 0.0018     | 8.1          | 3        | 0
+DPLL-Random     | 5          | 18     | SAT   | 0.0040     | 10.6         | 2        | 1
+DPLL-Random     | 5          | 22     | UNSAT | 0.0075     | 19.4         | 3        | 7
+DPLL-Random     | 5          | 26     | UNSAT | 0.0088     | 24.9         | 3        | 7
+DPLL-MOMS       | 5          | 2      | SAT   | 0.0000     | 1.2          | 0        | 0
+DPLL-MOMS       | 5          | 6      | SAT   | 0.0002     | 2.5          | 1        | 0
+DPLL-MOMS       | 5          | 10     | SAT   | 0.0014     | 6.9          | 2        | 0
+DPLL-MOMS       | 5          | 14     | SAT   | 0.0020     | 9.8          | 2        | 0
+DPLL-MOMS       | 5          | 18     | SAT   | 0.0031     | 10.2         | 2        | 1
+DPLL-MOMS       | 5          | 22     | UNSAT | 0.0089     | 18.4         | 3        | 7
+DPLL-MOMS       | 5          | 26     | UNSAT | 0.0094     | 20.3         | 3        | 7
+DPLL-VSIDS      | 5          | 2      | SAT   | 0.0000     | 1.2          | 0        | 0
+DPLL-VSIDS      | 5          | 6      | SAT   | 0.0002     | 2.7          | 1        | 0
+DPLL-VSIDS      | 5          | 10     | SAT   | 0.0011     | 7.1          | 2        | 0
+DPLL-VSIDS      | 5          | 14     | SAT   | 0.0018     | 10.1         | 2        | 0
+DPLL-VSIDS      | 5          | 18     | SAT   | 0.0027     | 10.4         | 2        | 1
+DPLL-VSIDS      | 5          | 22     | UNSAT | 0.0074     | 19.1         | 3        | 7
+DPLL-VSIDS      | 5          | 26     | UNSAT | 0.0086     | 20.5         | 3        | 7
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/3 SAT (66.7%), 1/300.0% UNSAT
+  DP-Optimizat: 4/7 SAT (57.1%), 3/700.0% UNSAT
+  DPLL-First: 5/7 SAT (71.4%), 2/700.0% UNSAT
+  DPLL-Random: 5/7 SAT (71.4%), 2/700.0% UNSAT
+  DPLL-MOMS: 5/7 SAT (71.4%), 2/700.0% UNSAT
+  DPLL-VSIDS: 5/7 SAT (71.4%), 2/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 7          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 7          | 6      | SAT   | 1.6716     | 570.0        | 1015     | 0
+Rezolutie       | 7          | 10     | UNSAT | 80.1779    | 6073.0       | 7485     | 0
+DP-Optimizat    | 7          | 2      | SAT   | 0.0001     | 1.9          | 0        | 0
+DP-Optimizat    | 7          | 6      | SAT   | 0.0003     | 2.6          | 1        | 0
+DP-Optimizat    | 7          | 10     | SAT   | 0.0011     | 5.6          | 3        | 0
+DP-Optimizat    | 7          | 14     | SAT   | 0.0008     | 6.7          | 3        | 0
+DP-Optimizat    | 7          | 18     | UNSAT | 0.2727     | 9455.5       | 3        | 1
+DP-Optimizat    | 7          | 22     | UNSAT | 0.0121     | 401.8        | 2        | 1
+DP-Optimizat    | 7          | 26     | UNSAT | 9.0145     | 287809.6     | 4        | 1
+DPLL-First      | 7          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-First      | 7          | 6      | SAT   | 0.0003     | 2.5          | 1        | 0
+DPLL-First      | 7          | 10     | SAT   | 0.0009     | 5.8          | 2        | 0
+DPLL-First      | 7          | 14     | SAT   | 0.0014     | 7.7          | 3        | 0
+DPLL-First      | 7          | 18     | SAT   | 0.0042     | 12.1         | 3        | 1
+DPLL-First      | 7          | 22     | SAT   | 0.0073     | 17.4         | 4        | 4
+DPLL-First      | 7          | 26     | SAT   | 0.0073     | 20.3         | 4        | 0
+DPLL-Random     | 7          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-Random     | 7          | 6      | SAT   | 0.0002     | 2.5          | 1        | 0
+DPLL-Random     | 7          | 10     | SAT   | 0.0012     | 7.1          | 2        | 0
+DPLL-Random     | 7          | 14     | SAT   | 0.0007     | 6.4          | 1        | 0
+DPLL-Random     | 7          | 18     | SAT   | 0.0042     | 12.9         | 3        | 0
+DPLL-Random     | 7          | 22     | SAT   | 0.0097     | 20.6         | 5        | 5
+DPLL-Random     | 7          | 26     | SAT   | 0.0133     | 25.6         | 5        | 5
+DPLL-MOMS       | 7          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-MOMS       | 7          | 6      | SAT   | 0.0002     | 2.5          | 1        | 0
+DPLL-MOMS       | 7          | 10     | SAT   | 0.0010     | 5.8          | 2        | 0
+DPLL-MOMS       | 7          | 14     | SAT   | 0.0007     | 6.4          | 1        | 0
+DPLL-MOMS       | 7          | 18     | SAT   | 0.0030     | 12.9         | 3        | 0
+DPLL-MOMS       | 7          | 22     | SAT   | 0.0073     | 17.9         | 4        | 4
+DPLL-MOMS       | 7          | 26     | SAT   | 0.0074     | 20.1         | 3        | 1
+DPLL-VSIDS      | 7          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-VSIDS      | 7          | 6      | SAT   | 0.0002     | 2.7          | 1        | 0
+DPLL-VSIDS      | 7          | 10     | SAT   | 0.0010     | 6.2          | 2        | 0
+DPLL-VSIDS      | 7          | 14     | SAT   | 0.0009     | 6.7          | 1        | 0
+DPLL-VSIDS      | 7          | 18     | SAT   | 0.0028     | 13.4         | 4        | 0
+DPLL-VSIDS      | 7          | 22     | SAT   | 0.0067     | 18.4         | 5        | 4
+DPLL-VSIDS      | 7          | 26     | SAT   | 0.0070     | 19.1         | 3        | 1
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/3 SAT (66.7%), 1/300.0% UNSAT
+  DP-Optimizat: 4/7 SAT (57.1%), 3/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 7          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 7          | 6      | SAT   | 74.9900    | 2634.3       | 5023     | 0
+Rezolutie       | 7          | 10     | UNSAT | 300.6111   | 9554.9       | 12548    | 0
+DP-Optimizat    | 7          | 2      | SAT   | 0.0001     | 1.9          | 0        | 0
+DP-Optimizat    | 7          | 6      | SAT   | 0.0006     | 3.8          | 2        | 0
+DP-Optimizat    | 7          | 10     | UNSAT | 0.0071     | 68.3         | 3        | 0
+DP-Optimizat    | 7          | 14     | UNSAT | 0.0262     | 457.4        | 3        | 0
+DP-Optimizat    | 7          | 18     | SAT   | 4.9641     | 114221.1     | 4        | 0
+DP-Optimizat    | 7          | 22     | SAT   | 0.3749     | 10760.4      | 3        | 0
+DP-Optimizat    | 7          | 26     | UNSAT | 0.4083     | 11614.2      | 3        | 1
+DPLL-First      | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 7          | 6      | SAT   | 0.0010     | 4.5          | 2        | 0
+DPLL-First      | 7          | 10     | SAT   | 0.0016     | 9.5          | 3        | 0
+DPLL-First      | 7          | 14     | SAT   | 0.0030     | 13.0         | 2        | 1
+DPLL-First      | 7          | 18     | SAT   | 0.0039     | 11.8         | 3        | 0
+DPLL-First      | 7          | 22     | SAT   | 0.0028     | 12.8         | 2        | 0
+DPLL-First      | 7          | 26     | SAT   | 0.0084     | 23.3         | 5        | 2
+DPLL-Random     | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-Random     | 7          | 6      | SAT   | 0.0007     | 4.5          | 2        | 0
+DPLL-Random     | 7          | 10     | SAT   | 0.0014     | 9.3          | 3        | 0
+DPLL-Random     | 7          | 14     | SAT   | 0.0028     | 11.3         | 4        | 1
+DPLL-Random     | 7          | 18     | SAT   | 0.0031     | 11.8         | 3        | 0
+DPLL-Random     | 7          | 22     | SAT   | 0.0029     | 14.1         | 2        | 0
+DPLL-Random     | 7          | 26     | SAT   | 0.0035     | 19.0         | 2        | 0
+DPLL-MOMS       | 7          | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-MOMS       | 7          | 6      | SAT   | 0.0017     | 4.5          | 2        | 0
+DPLL-MOMS       | 7          | 10     | SAT   | 0.0012     | 8.1          | 2        | 0
+DPLL-MOMS       | 7          | 14     | SAT   | 0.0021     | 9.8          | 2        | 0
+DPLL-MOMS       | 7          | 18     | SAT   | 0.0023     | 10.3         | 3        | 0
+DPLL-MOMS       | 7          | 22     | SAT   | 0.0050     | 18.3         | 2        | 1
+DPLL-MOMS       | 7          | 26     | SAT   | 0.0055     | 20.8         | 3        | 2
+DPLL-VSIDS      | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 7          | 6      | SAT   | 0.0009     | 4.7          | 2        | 0
+DPLL-VSIDS      | 7          | 10     | SAT   | 0.0012     | 8.5          | 2        | 0
+DPLL-VSIDS      | 7          | 14     | SAT   | 0.0027     | 12.5         | 2        | 1
+DPLL-VSIDS      | 7          | 18     | SAT   | 0.0040     | 11.4         | 3        | 0
+DPLL-VSIDS      | 7          | 22     | SAT   | 0.0046     | 18.7         | 2        | 1
+DPLL-VSIDS      | 7          | 26     | SAT   | 0.0036     | 16.6         | 2        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/3 SAT (66.7%), 1/300.0% UNSAT
+  DP-Optimizat: 4/7 SAT (57.1%), 3/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 7          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 7          | 6      | SAT   | 0.0366     | 69.0         | 170      | 0
+Rezolutie       | 7          | 10     | UNSAT | 18.8306    | 5756.7       | 4240     | 0
+DP-Optimizat    | 7          | 2      | SAT   | 0.0001     | 1.9          | 0        | 0
+DP-Optimizat    | 7          | 6      | SAT   | 0.0004     | 3.0          | 1        | 0
+DP-Optimizat    | 7          | 10     | UNSAT | 0.0019     | 12.2         | 5        | 0
+DP-Optimizat    | 7          | 14     | SAT   | 0.0959     | 963.1        | 4        | 0
+DP-Optimizat    | 7          | 18     | UNSAT | 0.2220     | 3416.1       | 3        | 0
+DP-Optimizat    | 7          | 22     | SAT   | 0.0127     | 169.5        | 4        | 0
+DP-Optimizat    | 7          | 26     | UNSAT | 2.2067     | 34653.5      | 3        | 0
+DPLL-First      | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 7          | 6      | SAT   | 0.0004     | 3.1          | 1        | 0
+DPLL-First      | 7          | 10     | SAT   | 0.0014     | 6.8          | 2        | 0
+DPLL-First      | 7          | 14     | SAT   | 0.0017     | 9.2          | 2        | 0
+DPLL-First      | 7          | 18     | SAT   | 0.0058     | 16.7         | 3        | 1
+DPLL-First      | 7          | 22     | SAT   | 0.0088     | 21.9         | 4        | 1
+DPLL-First      | 7          | 26     | SAT   | 0.0052     | 15.9         | 2        | 0
+DPLL-Random     | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-Random     | 7          | 6      | SAT   | 0.0004     | 3.1          | 1        | 0
+DPLL-Random     | 7          | 10     | SAT   | 0.0016     | 8.6          | 2        | 0
+DPLL-Random     | 7          | 14     | SAT   | 0.0035     | 12.0         | 3        | 1
+DPLL-Random     | 7          | 18     | SAT   | 0.0045     | 14.0         | 3        | 0
+DPLL-Random     | 7          | 22     | SAT   | 0.0048     | 12.9         | 2        | 0
+DPLL-Random     | 7          | 26     | SAT   | 0.0168     | 15.6         | 2        | 0
+DPLL-MOMS       | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-MOMS       | 7          | 6      | SAT   | 0.0004     | 3.1          | 1        | 0
+DPLL-MOMS       | 7          | 10     | SAT   | 0.0014     | 6.8          | 2        | 0
+DPLL-MOMS       | 7          | 14     | SAT   | 0.0025     | 9.8          | 2        | 0
+DPLL-MOMS       | 7          | 18     | SAT   | 0.0044     | 13.7         | 2        | 0
+DPLL-MOMS       | 7          | 22     | SAT   | 0.0054     | 14.6         | 3        | 0
+DPLL-MOMS       | 7          | 26     | SAT   | 0.0071     | 15.7         | 2        | 0
+DPLL-VSIDS      | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 7          | 6      | SAT   | 0.0005     | 3.3          | 1        | 0
+DPLL-VSIDS      | 7          | 10     | SAT   | 0.0024     | 7.2          | 2        | 0
+DPLL-VSIDS      | 7          | 14     | SAT   | 0.0024     | 10.2         | 2        | 0
+DPLL-VSIDS      | 7          | 18     | SAT   | 0.0036     | 14.1         | 2        | 0
+DPLL-VSIDS      | 7          | 22     | SAT   | 0.0052     | 13.3         | 2        | 0
+DPLL-VSIDS      | 7          | 26     | SAT   | 0.0060     | 16.1         | 2        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/3 SAT (66.7%), 1/300.0% UNSAT
+  DP-Optimizat: 4/7 SAT (57.1%), 3/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 7          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 7          | 6      | SAT   | 0.0557     | 83.0         | 248      | 0
+Rezolutie       | 7          | 10     | SAT   | 118.9927   | 2652.3       | 5417     | 0
+DP-Optimizat    | 7          | 2      | SAT   | 0.0002     | 2.4          | 0        | 0
+DP-Optimizat    | 7          | 6      | SAT   | 0.0002     | 3.2          | 0        | 0
+DP-Optimizat    | 7          | 10     | SAT   | 0.0006     | 3.6          | 1        | 0
+DP-Optimizat    | 7          | 14     | SAT   | 0.4157     | 3937.5       | 4        | 0
+DP-Optimizat    | 7          | 18     | SAT   | 0.0143     | 111.5        | 3        | 0
+DP-Optimizat    | 7          | 22     | SAT   | 0.0594     | 576.5        | 4        | 0
+DP-Optimizat    | 7          | 26     | UNSAT | 0.5569     | 10163.4      | 3        | 1
+DPLL-First      | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 7          | 6      | SAT   | 0.0001     | 2.5          | 0        | 0
+DPLL-First      | 7          | 10     | SAT   | 0.0005     | 3.6          | 1        | 0
+DPLL-First      | 7          | 14     | SAT   | 0.0028     | 10.0         | 2        | 0
+DPLL-First      | 7          | 18     | SAT   | 0.0037     | 10.8         | 2        | 0
+DPLL-First      | 7          | 22     | SAT   | 0.0052     | 12.9         | 3        | 0
+DPLL-First      | 7          | 26     | SAT   | 0.0156     | 22.8         | 5        | 5
+DPLL-Random     | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-Random     | 7          | 6      | SAT   | 0.0001     | 2.5          | 0        | 0
+DPLL-Random     | 7          | 10     | SAT   | 0.0005     | 3.6          | 1        | 0
+DPLL-Random     | 7          | 14     | SAT   | 0.0034     | 11.2         | 4        | 0
+DPLL-Random     | 7          | 18     | SAT   | 0.0051     | 13.2         | 3        | 0
+DPLL-Random     | 7          | 22     | SAT   | 0.0172     | 21.2         | 5        | 5
+DPLL-Random     | 7          | 26     | SAT   | 0.0075     | 15.8         | 3        | 0
+DPLL-MOMS       | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-MOMS       | 7          | 6      | SAT   | 0.0001     | 2.5          | 0        | 0
+DPLL-MOMS       | 7          | 10     | SAT   | 0.0005     | 3.6          | 1        | 0
+DPLL-MOMS       | 7          | 14     | SAT   | 0.0024     | 10.0         | 2        | 0
+DPLL-MOMS       | 7          | 18     | SAT   | 0.0036     | 10.9         | 2        | 0
+DPLL-MOMS       | 7          | 22     | SAT   | 0.0055     | 17.4         | 2        | 0
+DPLL-MOMS       | 7          | 26     | SAT   | 0.0054     | 14.0         | 2        | 0
+DPLL-VSIDS      | 7          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 7          | 6      | SAT   | 0.0001     | 2.5          | 0        | 0
+DPLL-VSIDS      | 7          | 10     | SAT   | 0.0006     | 3.9          | 1        | 0
+DPLL-VSIDS      | 7          | 14     | SAT   | 0.0029     | 10.7         | 3        | 0
+DPLL-VSIDS      | 7          | 18     | SAT   | 0.0042     | 11.3         | 2        | 0
+DPLL-VSIDS      | 7          | 22     | SAT   | 0.0048     | 17.9         | 2        | 0
+DPLL-VSIDS      | 7          | 26     | SAT   | 0.0105     | 18.8         | 4        | 3
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 3/3 SAT (100.0%), 0/300.0% UNSAT
+  DP-Optimizat: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 10         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 10         | 6      | SAT   | 0.0068     | 34.9         | 92       | 0
+DP-Optimizat    | 10         | 2      | SAT   | 0.0001     | 2.2          | 0        | 0
+DP-Optimizat    | 10         | 6      | SAT   | 0.0001     | 4.4          | 0        | 0
+DP-Optimizat    | 10         | 10     | SAT   | 0.0012     | 6.5          | 5        | 0
+DP-Optimizat    | 10         | 14     | UNSAT | 0.0021     | 16.7         | 4        | 1
+DP-Optimizat    | 10         | 18     | SAT   | 0.0027     | 35.3         | 7        | 0
+DP-Optimizat    | 10         | 22     | SAT   | 0.0370     | 438.4        | 4        | 0
+DP-Optimizat    | 10         | 26     | SAT   | 11.2872    | 372319.7     | 4        | 0
+DPLL-First      | 10         | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-First      | 10         | 6      | SAT   | 0.0001     | 2.9          | 0        | 0
+DPLL-First      | 10         | 10     | SAT   | 0.0012     | 7.0          | 1        | 0
+DPLL-First      | 10         | 14     | SAT   | 0.0011     | 7.2          | 2        | 0
+DPLL-First      | 10         | 18     | SAT   | 0.0026     | 10.9         | 3        | 0
+DPLL-First      | 10         | 22     | SAT   | 0.0031     | 18.4         | 3        | 0
+DPLL-First      | 10         | 26     | SAT   | 0.0054     | 19.2         | 2        | 0
+DPLL-Random     | 10         | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-Random     | 10         | 6      | SAT   | 0.0001     | 2.9          | 0        | 0
+DPLL-Random     | 10         | 10     | SAT   | 0.0013     | 7.0          | 2        | 0
+DPLL-Random     | 10         | 14     | SAT   | 0.0012     | 7.2          | 2        | 0
+DPLL-Random     | 10         | 18     | SAT   | 0.0035     | 15.4         | 4        | 0
+DPLL-Random     | 10         | 22     | SAT   | 0.0046     | 18.0         | 3        | 0
+DPLL-Random     | 10         | 26     | SAT   | 0.0047     | 20.4         | 2        | 0
+DPLL-MOMS       | 10         | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-MOMS       | 10         | 6      | SAT   | 0.0001     | 2.9          | 0        | 0
+DPLL-MOMS       | 10         | 10     | SAT   | 0.0012     | 7.0          | 1        | 0
+DPLL-MOMS       | 10         | 14     | SAT   | 0.0012     | 7.3          | 2        | 0
+DPLL-MOMS       | 10         | 18     | SAT   | 0.0026     | 10.9         | 3        | 0
+DPLL-MOMS       | 10         | 22     | SAT   | 0.0029     | 19.3         | 3        | 0
+DPLL-MOMS       | 10         | 26     | SAT   | 0.0048     | 16.5         | 3        | 0
+DPLL-VSIDS      | 10         | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-VSIDS      | 10         | 6      | SAT   | 0.0001     | 2.9          | 0        | 0
+DPLL-VSIDS      | 10         | 10     | SAT   | 0.0008     | 7.5          | 1        | 0
+DPLL-VSIDS      | 10         | 14     | SAT   | 0.0011     | 7.8          | 2        | 0
+DPLL-VSIDS      | 10         | 18     | SAT   | 0.0027     | 11.4         | 3        | 0
+DPLL-VSIDS      | 10         | 22     | SAT   | 0.0024     | 17.8         | 2        | 0
+DPLL-VSIDS      | 10         | 26     | SAT   | 0.0056     | 17.3         | 4        | 1
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 10         | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 10         | 6      | SAT   | 0.0369     | 88.7         | 191      | 0
+DP-Optimizat    | 10         | 2      | SAT   | 0.0001     | 2.1          | 0        | 0
+DP-Optimizat    | 10         | 6      | SAT   | 0.0002     | 4.2          | 1        | 0
+DP-Optimizat    | 10         | 10     | SAT   | 0.0003     | 5.4          | 1        | 0
+DP-Optimizat    | 10         | 14     | SAT   | 0.0010     | 6.9          | 1        | 0
+DP-Optimizat    | 10         | 18     | UNSAT | 0.4229     | 13486.9      | 5        | 0
+DP-Optimizat    | 10         | 22     | SAT   | 93.9654    | 2698315.3    | 5        | 0
+DP-Optimizat    | 10         | 26     | SAT   | 187.9453   | 4310290.2    | 8        | 0
+DPLL-First      | 10         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 10         | 6      | SAT   | 0.0002     | 2.9          | 1        | 0
+DPLL-First      | 10         | 10     | SAT   | 0.0005     | 4.2          | 1        | 0
+DPLL-First      | 10         | 14     | SAT   | 0.0010     | 7.0          | 2        | 0
+DPLL-First      | 10         | 18     | SAT   | 0.0054     | 21.2         | 5        | 1
+DPLL-First      | 10         | 22     | SAT   | 0.0035     | 18.5         | 2        | 0
+DPLL-First      | 10         | 26     | SAT   | 0.0090     | 20.5         | 4        | 0
+DPLL-Random     | 10         | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-Random     | 10         | 6      | SAT   | 0.0002     | 2.9          | 1        | 0
+DPLL-Random     | 10         | 10     | SAT   | 0.0006     | 4.2          | 1        | 0
+DPLL-Random     | 10         | 14     | SAT   | 0.0013     | 9.2          | 2        | 0
+DPLL-Random     | 10         | 18     | SAT   | 0.0031     | 17.2         | 4        | 0
+DPLL-Random     | 10         | 22     | SAT   | 0.0039     | 18.5         | 3        | 0
+DPLL-Random     | 10         | 26     | SAT   | 0.0048     | 19.4         | 4        | 0
+DPLL-MOMS       | 10         | 2      | SAT   | 0.0000     | 1.6          | 0        | 0
+DPLL-MOMS       | 10         | 6      | SAT   | 0.0002     | 2.9          | 1        | 0
+DPLL-MOMS       | 10         | 10     | SAT   | 0.0006     | 4.2          | 1        | 0
+DPLL-MOMS       | 10         | 14     | SAT   | 0.0009     | 7.0          | 1        | 0
+DPLL-MOMS       | 10         | 18     | SAT   | 0.0040     | 17.9         | 4        | 0
+DPLL-MOMS       | 10         | 22     | SAT   | 0.0036     | 20.0         | 2        | 0
+DPLL-MOMS       | 10         | 26     | SAT   | 0.0057     | 21.0         | 4        | 0
+DPLL-VSIDS      | 10         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 10         | 6      | SAT   | 0.0002     | 3.0          | 1        | 0
+DPLL-VSIDS      | 10         | 10     | SAT   | 0.0005     | 4.6          | 1        | 0
+DPLL-VSIDS      | 10         | 14     | SAT   | 0.0008     | 7.4          | 1        | 0
+DPLL-VSIDS      | 10         | 18     | SAT   | 0.0026     | 15.2         | 3        | 0
+DPLL-VSIDS      | 10         | 22     | SAT   | 0.0041     | 19.4         | 2        | 0
+DPLL-VSIDS      | 10         | 26     | SAT   | 0.0049     | 18.5         | 4        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 10         | 2      | SAT   | 0.0006     | 6.4          | 15       | 0
+Rezolutie       | 10         | 6      | SAT   | 0.7992     | 375.2        | 866      | 0
+DP-Optimizat    | 10         | 2      | SAT   | 0.0001     | 1.9          | 0        | 0
+DP-Optimizat    | 10         | 6      | SAT   | 0.0003     | 4.2          | 1        | 0
+DP-Optimizat    | 10         | 10     | UNSAT | 2.3771     | 31109.3      | 9        | 0
+DP-Optimizat    | 10         | 14     | UNSAT | 0.4031     | 13350.7      | 5        | 0
+DP-Optimizat    | 10         | 18     | SAT   | 0.0010     | 11.9         | 2        | 0
+DP-Optimizat    | 10         | 22     | UNSAT | 0.2375     | 5549.7       | 4        | 0
+DP-Optimizat    | 10         | 26     | UNSAT | 0.0340     | 696.7        | 3        | 1
+DPLL-First      | 10         | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-First      | 10         | 6      | SAT   | 0.0002     | 3.4          | 1        | 0
+DPLL-First      | 10         | 10     | SAT   | 0.0017     | 10.6         | 3        | 0
+DPLL-First      | 10         | 14     | SAT   | 0.0027     | 10.3         | 3        | 0
+DPLL-First      | 10         | 18     | SAT   | 0.0026     | 10.2         | 3        | 0
+DPLL-First      | 10         | 22     | SAT   | 0.0039     | 19.4         | 3        | 0
+DPLL-First      | 10         | 26     | SAT   | 0.0061     | 29.4         | 4        | 0
+DPLL-Random     | 10         | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-Random     | 10         | 6      | SAT   | 0.0002     | 3.4          | 1        | 0
+DPLL-Random     | 10         | 10     | SAT   | 0.0012     | 7.8          | 2        | 0
+DPLL-Random     | 10         | 14     | SAT   | 0.0024     | 8.9          | 2        | 0
+DPLL-Random     | 10         | 18     | SAT   | 0.0012     | 10.1         | 2        | 0
+DPLL-Random     | 10         | 22     | SAT   | 0.0050     | 19.6         | 4        | 1
+DPLL-Random     | 10         | 26     | SAT   | 0.0043     | 25.8         | 3        | 0
+DPLL-MOMS       | 10         | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-MOMS       | 10         | 6      | SAT   | 0.0002     | 3.4          | 1        | 0
+DPLL-MOMS       | 10         | 10     | SAT   | 0.0011     | 7.9          | 2        | 0
+DPLL-MOMS       | 10         | 14     | SAT   | 0.0031     | 10.7         | 3        | 0
+DPLL-MOMS       | 10         | 18     | SAT   | 0.0016     | 10.1         | 2        | 0
+DPLL-MOMS       | 10         | 22     | SAT   | 0.0030     | 15.1         | 3        | 0
+DPLL-MOMS       | 10         | 26     | SAT   | 0.0039     | 19.9         | 4        | 0
+DPLL-VSIDS      | 10         | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-VSIDS      | 10         | 6      | SAT   | 0.0002     | 3.4          | 1        | 0
+DPLL-VSIDS      | 10         | 10     | SAT   | 0.0012     | 8.4          | 2        | 0
+DPLL-VSIDS      | 10         | 14     | SAT   | 0.0033     | 12.3         | 3        | 0
+DPLL-VSIDS      | 10         | 18     | SAT   | 0.0016     | 10.5         | 2        | 0
+DPLL-VSIDS      | 10         | 22     | SAT   | 0.0030     | 15.7         | 3        | 0
+DPLL-VSIDS      | 10         | 26     | SAT   | 0.0043     | 21.3         | 3        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 12         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 12         | 6      | SAT   | 0.1130     | 159.8        | 466      | 0
+DP-Optimizat    | 12         | 2      | SAT   | 0.0001     | 2.6          | 0        | 0
+DP-Optimizat    | 12         | 6      | SAT   | 0.0003     | 4.2          | 1        | 0
+DP-Optimizat    | 12         | 10     | SAT   | 0.0047     | 41.7         | 5        | 0
+DP-Optimizat    | 12         | 14     | SAT   | 0.0008     | 9.2          | 2        | 0
+DP-Optimizat    | 12         | 18     | SAT   | 0.0005     | 9.6          | 2        | 0
+DP-Optimizat    | 12         | 22     | SAT   | 0.0008     | 11.2         | 2        | 0
+DP-Optimizat    | 12         | 26     | UNSAT | 0.0047     | 38.8         | 7        | 0
+DPLL-First      | 12         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 12         | 6      | SAT   | 0.0004     | 3.6          | 1        | 0
+DPLL-First      | 12         | 10     | SAT   | 0.0017     | 8.7          | 3        | 0
+DPLL-First      | 12         | 14     | SAT   | 0.0011     | 9.2          | 2        | 0
+DPLL-First      | 12         | 18     | SAT   | 0.0016     | 12.0         | 2        | 0
+DPLL-First      | 12         | 22     | SAT   | 0.0014     | 10.1         | 2        | 0
+DPLL-First      | 12         | 26     | SAT   | 0.0033     | 23.6         | 3        | 0
+DPLL-Random     | 12         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-Random     | 12         | 6      | SAT   | 0.0004     | 3.6          | 1        | 0
+DPLL-Random     | 12         | 10     | SAT   | 0.0010     | 7.2          | 2        | 0
+DPLL-Random     | 12         | 14     | SAT   | 0.0017     | 9.2          | 2        | 0
+DPLL-Random     | 12         | 18     | SAT   | 0.0014     | 11.0         | 2        | 0
+DPLL-Random     | 12         | 22     | SAT   | 0.0014     | 10.1         | 2        | 0
+DPLL-Random     | 12         | 26     | SAT   | 0.0037     | 25.5         | 4        | 0
+DPLL-MOMS       | 12         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-MOMS       | 12         | 6      | SAT   | 0.0004     | 3.6          | 1        | 0
+DPLL-MOMS       | 12         | 10     | SAT   | 0.0015     | 7.2          | 2        | 0
+DPLL-MOMS       | 12         | 14     | SAT   | 0.0011     | 9.3          | 2        | 0
+DPLL-MOMS       | 12         | 18     | SAT   | 0.0015     | 11.1         | 2        | 0
+DPLL-MOMS       | 12         | 22     | SAT   | 0.0015     | 11.0         | 2        | 0
+DPLL-MOMS       | 12         | 26     | SAT   | 0.0035     | 20.2         | 3        | 0
+DPLL-VSIDS      | 12         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 12         | 6      | SAT   | 0.0004     | 3.6          | 1        | 0
+DPLL-VSIDS      | 12         | 10     | SAT   | 0.0014     | 7.7          | 2        | 0
+DPLL-VSIDS      | 12         | 14     | SAT   | 0.0011     | 9.7          | 2        | 0
+DPLL-VSIDS      | 12         | 18     | SAT   | 0.0015     | 11.9         | 2        | 0
+DPLL-VSIDS      | 12         | 22     | SAT   | 0.0016     | 11.5         | 2        | 0
+DPLL-VSIDS      | 12         | 26     | SAT   | 0.0035     | 21.3         | 3        | 1
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 12         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 12         | 6      | SAT   | 0.0017     | 19.1         | 26       | 0
+DP-Optimizat    | 12         | 2      | SAT   | 0.0001     | 2.2          | 0        | 0
+DP-Optimizat    | 12         | 6      | SAT   | 0.0002     | 3.8          | 1        | 0
+DP-Optimizat    | 12         | 10     | SAT   | 0.0003     | 5.2          | 1        | 0
+DP-Optimizat    | 12         | 14     | SAT   | 0.0003     | 6.8          | 1        | 0
+DP-Optimizat    | 12         | 18     | SAT   | 0.0005     | 8.7          | 2        | 0
+DP-Optimizat    | 12         | 22     | SAT   | 1095.1199  | 11626905.5   | 6        | 0
+DPLL-First      | 12         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-First      | 12         | 6      | SAT   | 0.0002     | 3.1          | 1        | 0
+DPLL-First      | 12         | 10     | SAT   | 0.0004     | 4.6          | 1        | 0
+DPLL-First      | 12         | 14     | SAT   | 0.0007     | 5.8          | 2        | 0
+DPLL-First      | 12         | 18     | SAT   | 0.0013     | 10.1         | 2        | 0
+DPLL-First      | 12         | 22     | SAT   | 0.0097     | 27.1         | 6        | 0
+DPLL-First      | 12         | 26     | SAT   | 0.0069     | 19.6         | 4        | 0
+DPLL-Random     | 12         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-Random     | 12         | 6      | SAT   | 0.0002     | 3.1          | 1        | 0
+DPLL-Random     | 12         | 10     | SAT   | 0.0009     | 4.6          | 1        | 0
+DPLL-Random     | 12         | 14     | SAT   | 0.0011     | 5.8          | 2        | 0
+DPLL-Random     | 12         | 18     | SAT   | 0.0012     | 10.1         | 2        | 0
+DPLL-Random     | 12         | 22     | SAT   | 0.0074     | 18.1         | 5        | 0
+DPLL-Random     | 12         | 26     | SAT   | 0.0090     | 29.2         | 5        | 0
+DPLL-MOMS       | 12         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+DPLL-MOMS       | 12         | 6      | SAT   | 0.0002     | 3.1          | 1        | 0
+DPLL-MOMS       | 12         | 10     | SAT   | 0.0007     | 4.6          | 1        | 0
+DPLL-MOMS       | 12         | 14     | SAT   | 0.0008     | 5.8          | 2        | 0
+DPLL-MOMS       | 12         | 18     | SAT   | 0.0018     | 10.1         | 2        | 0
+DPLL-MOMS       | 12         | 22     | SAT   | 0.0068     | 20.8         | 6        | 0
+DPLL-MOMS       | 12         | 26     | SAT   | 0.0055     | 21.8         | 4        | 0
+DPLL-VSIDS      | 12         | 2      | SAT   | 0.0000     | 1.2          | 0        | 0
+DPLL-VSIDS      | 12         | 6      | SAT   | 0.0002     | 3.1          | 1        | 0
+DPLL-VSIDS      | 12         | 10     | SAT   | 0.0008     | 4.7          | 1        | 0
+DPLL-VSIDS      | 12         | 14     | SAT   | 0.0007     | 5.9          | 2        | 0
+DPLL-VSIDS      | 12         | 18     | SAT   | 0.0013     | 10.6         | 2        | 0
+DPLL-VSIDS      | 12         | 22     | SAT   | 0.0041     | 16.0         | 4        | 0
+DPLL-VSIDS      | 12         | 26     | SAT   | 0.0057     | 24.4         | 5        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 6/6 SAT (100.0%), 0/600.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 16         | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 16         | 6      | SAT   | 0.0019     | 18.8         | 30       | 0
+DP-Optimizat    | 16         | 2      | SAT   | 0.0001     | 2.4          | 0        | 0
+DP-Optimizat    | 16         | 6      | SAT   | 0.0001     | 4.0          | 0        | 0
+DP-Optimizat    | 16         | 10     | SAT   | 0.0004     | 5.5          | 1        | 0
+DP-Optimizat    | 16         | 14     | SAT   | 0.0003     | 8.0          | 1        | 0
+DP-Optimizat    | 16         | 18     | SAT   | 0.0007     | 10.8         | 2        | 0
+DP-Optimizat    | 16         | 22     | SAT   | 0.0043     | 39.7         | 5        | 0
+DPLL-First      | 16         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 16         | 6      | SAT   | 0.0001     | 3.1          | 0        | 0
+DPLL-First      | 16         | 10     | SAT   | 0.0006     | 5.1          | 2        | 0
+DPLL-First      | 16         | 14     | SAT   | 0.0004     | 6.7          | 1        | 0
+DPLL-First      | 16         | 18     | SAT   | 0.0021     | 10.3         | 2        | 0
+DPLL-First      | 16         | 22     | SAT   | 0.0030     | 17.5         | 3        | 0
+DPLL-First      | 16         | 26     | SAT   | 0.0072     | 23.1         | 4        | 0
+DPLL-Random     | 16         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-Random     | 16         | 6      | SAT   | 0.0001     | 3.1          | 0        | 0
+DPLL-Random     | 16         | 10     | SAT   | 0.0004     | 4.9          | 1        | 0
+DPLL-Random     | 16         | 14     | SAT   | 0.0003     | 6.8          | 1        | 0
+DPLL-Random     | 16         | 18     | SAT   | 0.0019     | 10.6         | 3        | 0
+DPLL-Random     | 16         | 22     | SAT   | 0.0031     | 15.8         | 3        | 0
+DPLL-Random     | 16         | 26     | SAT   | 0.0039     | 18.3         | 3        | 0
+DPLL-MOMS       | 16         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-MOMS       | 16         | 6      | SAT   | 0.0001     | 3.1          | 0        | 0
+DPLL-MOMS       | 16         | 10     | SAT   | 0.0007     | 5.0          | 2        | 0
+DPLL-MOMS       | 16         | 14     | SAT   | 0.0004     | 6.8          | 1        | 0
+DPLL-MOMS       | 16         | 18     | SAT   | 0.0022     | 9.2          | 2        | 0
+DPLL-MOMS       | 16         | 22     | SAT   | 0.0027     | 15.8         | 3        | 0
+DPLL-MOMS       | 16         | 26     | SAT   | 0.0031     | 14.3         | 3        | 0
+DPLL-VSIDS      | 16         | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 16         | 6      | SAT   | 0.0001     | 3.1          | 0        | 0
+DPLL-VSIDS      | 16         | 10     | SAT   | 0.0008     | 5.3          | 2        | 0
+DPLL-VSIDS      | 16         | 14     | SAT   | 0.0005     | 6.8          | 1        | 0
+DPLL-VSIDS      | 16         | 18     | SAT   | 0.0014     | 10.1         | 2        | 0
+DPLL-VSIDS      | 16         | 22     | SAT   | 0.0025     | 14.8         | 3        | 0
+DPLL-VSIDS      | 16         | 26     | SAT   | 0.0030     | 14.9         | 3        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 6/6 SAT (100.0%), 0/600.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 2          | 2      | SAT   | 0.0010     | 0.7          | 0        | 0
+Rezolutie       | 2          | 6      | SAT   | 0.0000     | 0.7          | 0        | 0
+DP-Optimizat    | 2          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DP-Optimizat    | 2          | 6      | SAT   | 0.0001     | 0.6          | 0        | 0
+DP-Optimizat    | 2          | 10     | SAT   | 0.0001     | 0.6          | 0        | 0
+DP-Optimizat    | 2          | 14     | SAT   | 0.0001     | 0.6          | 0        | 0
+DP-Optimizat    | 2          | 18     | SAT   | 0.0001     | 0.6          | 0        | 0
+DP-Optimizat    | 2          | 22     | SAT   | 0.0001     | 0.6          | 0        | 0
+DP-Optimizat    | 2          | 26     | SAT   | 0.0001     | 0.6          | 0        | 0
+DPLL-First      | 2          | 2      | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-First      | 2          | 6      | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-First      | 2          | 10     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-First      | 2          | 14     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-First      | 2          | 18     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-First      | 2          | 22     | SAT   | 0.0001     | 0.3          | 0        | 0
+DPLL-First      | 2          | 26     | SAT   | 0.0000     | 0.3          | 0        | 0
+DPLL-Random     | 2          | 2      | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-Random     | 2          | 6      | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-Random     | 2          | 10     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-Random     | 2          | 14     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-Random     | 2          | 18     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-Random     | 2          | 22     | SAT   | 0.0000     | 0.3          | 0        | 0
+DPLL-Random     | 2          | 26     | SAT   | 0.0001     | 0.3          | 0        | 0
+DPLL-MOMS       | 2          | 2      | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-MOMS       | 2          | 6      | SAT   | 0.0001     | 0.4          | 0        | 0
+DPLL-MOMS       | 2          | 10     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-MOMS       | 2          | 14     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-MOMS       | 2          | 18     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-MOMS       | 2          | 22     | SAT   | 0.0000     | 0.3          | 0        | 0
+DPLL-MOMS       | 2          | 26     | SAT   | 0.0000     | 0.3          | 0        | 0
+DPLL-VSIDS      | 2          | 2      | SAT   | 0.0000     | 0.5          | 0        | 0
+DPLL-VSIDS      | 2          | 6      | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-VSIDS      | 2          | 10     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-VSIDS      | 2          | 14     | SAT   | 0.0001     | 0.4          | 0        | 0
+DPLL-VSIDS      | 2          | 18     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-VSIDS      | 2          | 22     | SAT   | 0.0000     | 0.4          | 0        | 0
+DPLL-VSIDS      | 2          | 26     | SAT   | 0.0000     | 0.4          | 0        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 4          | 2      | SAT   | 0.0006     | 6.3          | 15       | 0
+Rezolutie       | 4          | 6      | SAT   | 0.0034     | 17.1         | 36       | 0
+DP-Optimizat    | 4          | 2      | SAT   | 0.0006     | 1.9          | 0        | 0
+DP-Optimizat    | 4          | 6      | SAT   | 0.0004     | 1.7          | 1        | 0
+DP-Optimizat    | 4          | 10     | UNSAT | 0.0081     | 66.6         | 2        | 1
+DP-Optimizat    | 4          | 14     | SAT   | 0.0126     | 134.0        | 2        | 0
+DP-Optimizat    | 4          | 18     | UNSAT | 0.0268     | 313.8        | 2        | 1
+DP-Optimizat    | 4          | 22     | UNSAT | 0.0571     | 650.9        | 2        | 1
+DP-Optimizat    | 4          | 26     | UNSAT | 0.0897     | 1096.0       | 2        | 1
+DPLL-First      | 4          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-First      | 4          | 6      | SAT   | 0.0003     | 2.5          | 1        | 0
+DPLL-First      | 4          | 10     | SAT   | 0.0024     | 6.9          | 2        | 0
+DPLL-First      | 4          | 14     | SAT   | 0.0026     | 8.1          | 2        | 0
+DPLL-First      | 4          | 18     | SAT   | 0.0035     | 10.2         | 2        | 0
+DPLL-First      | 4          | 22     | UNSAT | 0.0115     | 18.7         | 3        | 7
+DPLL-First      | 4          | 26     | UNSAT | 0.0133     | 20.6         | 3        | 7
+DPLL-Random     | 4          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-Random     | 4          | 6      | SAT   | 0.0003     | 2.5          | 1        | 0
+DPLL-Random     | 4          | 10     | SAT   | 0.0026     | 7.4          | 2        | 0
+DPLL-Random     | 4          | 14     | SAT   | 0.0041     | 10.4         | 2        | 1
+DPLL-Random     | 4          | 18     | SAT   | 0.0034     | 10.2         | 2        | 0
+DPLL-Random     | 4          | 22     | UNSAT | 0.0117     | 18.0         | 3        | 7
+DPLL-Random     | 4          | 26     | UNSAT | 0.0132     | 20.2         | 3        | 7
+DPLL-MOMS       | 4          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-MOMS       | 4          | 6      | SAT   | 0.0004     | 2.5          | 1        | 0
+DPLL-MOMS       | 4          | 10     | SAT   | 0.0022     | 6.9          | 2        | 0
+DPLL-MOMS       | 4          | 14     | SAT   | 0.0026     | 8.1          | 2        | 0
+DPLL-MOMS       | 4          | 18     | SAT   | 0.0089     | 14.4         | 3        | 3
+DPLL-MOMS       | 4          | 22     | UNSAT | 0.0127     | 18.0         | 3        | 7
+DPLL-MOMS       | 4          | 26     | UNSAT | 0.0134     | 20.2         | 3        | 7
+DPLL-VSIDS      | 4          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-VSIDS      | 4          | 6      | SAT   | 0.0003     | 2.7          | 1        | 0
+DPLL-VSIDS      | 4          | 10     | SAT   | 0.0021     | 7.1          | 2        | 0
+DPLL-VSIDS      | 4          | 14     | SAT   | 0.0030     | 8.3          | 2        | 0
+DPLL-VSIDS      | 4          | 18     | SAT   | 0.0084     | 14.6         | 3        | 3
+DPLL-VSIDS      | 4          | 22     | UNSAT | 0.0116     | 18.2         | 3        | 7
+DPLL-VSIDS      | 4          | 26     | UNSAT | 0.0144     | 20.5         | 3        | 7
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 5/7 SAT (71.4%), 2/700.0% UNSAT
+  DPLL-Random: 5/7 SAT (71.4%), 2/700.0% UNSAT
+  DPLL-MOMS: 5/7 SAT (71.4%), 2/700.0% UNSAT
+  DPLL-VSIDS: 5/7 SAT (71.4%), 2/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 6          | 2      | SAT   | 0.0003     | 2.3          | 1        | 0
+Rezolutie       | 6          | 6      | SAT   | 0.1651     | 112.1        | 373      | 0
+DP-Optimizat    | 6          | 2      | SAT   | 0.0001     | 1.9          | 0        | 0
+DP-Optimizat    | 6          | 6      | SAT   | 0.0006     | 3.2          | 1        | 0
+DP-Optimizat    | 6          | 10     | UNSAT | 0.0190     | 200.1        | 4        | 0
+DP-Optimizat    | 6          | 14     | UNSAT | 0.0702     | 679.7        | 4        | 0
+DP-Optimizat    | 6          | 18     | UNSAT | 1.2200     | 12828.0      | 3        | 0
+DP-Optimizat    | 6          | 22     | SAT   | 0.0271     | 285.3        | 3        | 0
+DP-Optimizat    | 6          | 26     | SAT   | 0.0454     | 337.1        | 4        | 0
+DPLL-First      | 6          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-First      | 6          | 6      | SAT   | 0.0004     | 3.0          | 1        | 0
+DPLL-First      | 6          | 10     | SAT   | 0.0020     | 7.8          | 2        | 0
+DPLL-First      | 6          | 14     | SAT   | 0.0030     | 10.7         | 2        | 0
+DPLL-First      | 6          | 18     | SAT   | 0.0092     | 15.3         | 4        | 3
+DPLL-First      | 6          | 22     | SAT   | 0.0042     | 12.8         | 2        | 0
+DPLL-First      | 6          | 26     | SAT   | 0.0147     | 21.6         | 4        | 3
+DPLL-Random     | 6          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-Random     | 6          | 6      | SAT   | 0.0004     | 3.0          | 1        | 0
+DPLL-Random     | 6          | 10     | SAT   | 0.0020     | 7.8          | 2        | 0
+DPLL-Random     | 6          | 14     | SAT   | 0.0031     | 8.8          | 3        | 0
+DPLL-Random     | 6          | 18     | SAT   | 0.0097     | 15.5         | 5        | 5
+DPLL-Random     | 6          | 22     | SAT   | 0.0045     | 12.8         | 2        | 0
+DPLL-Random     | 6          | 26     | SAT   | 0.0063     | 14.3         | 3        | 0
+DPLL-MOMS       | 6          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-MOMS       | 6          | 6      | SAT   | 0.0006     | 3.0          | 1        | 0
+DPLL-MOMS       | 6          | 10     | SAT   | 0.0015     | 6.9          | 2        | 0
+DPLL-MOMS       | 6          | 14     | SAT   | 0.0029     | 8.3          | 2        | 0
+DPLL-MOMS       | 6          | 18     | SAT   | 0.0044     | 10.3         | 3        | 0
+DPLL-MOMS       | 6          | 22     | SAT   | 0.0044     | 12.9         | 2        | 0
+DPLL-MOMS       | 6          | 26     | SAT   | 0.0071     | 17.2         | 3        | 1
+DPLL-VSIDS      | 6          | 2      | SAT   | 0.0001     | 1.6          | 0        | 0
+DPLL-VSIDS      | 6          | 6      | SAT   | 0.0007     | 3.3          | 1        | 0
+DPLL-VSIDS      | 6          | 10     | SAT   | 0.0016     | 7.3          | 2        | 0
+DPLL-VSIDS      | 6          | 14     | SAT   | 0.0033     | 9.0          | 3        | 0
+DPLL-VSIDS      | 6          | 18     | SAT   | 0.0042     | 10.7         | 4        | 0
+DPLL-VSIDS      | 6          | 22     | SAT   | 0.0054     | 13.3         | 3        | 1
+DPLL-VSIDS      | 6          | 26     | SAT   | 0.0085     | 17.5         | 3        | 1
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 4/7 SAT (57.1%), 3/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 8          | 2      | SAT   | 0.0011     | 6.1          | 15       | 0
+Rezolutie       | 8          | 6      | SAT   | 0.0280     | 55.6         | 200      | 0
+DP-Optimizat    | 8          | 2      | SAT   | 0.0001     | 1.9          | 0        | 0
+DP-Optimizat    | 8          | 6      | SAT   | 0.0006     | 4.2          | 1        | 0
+DP-Optimizat    | 8          | 10     | SAT   | 0.0008     | 5.1          | 2        | 0
+DP-Optimizat    | 8          | 14     | UNSAT | 1858.8830  | 8333352.2    | 5        | 1
+DP-Optimizat    | 8          | 18     | UNSAT | 11025.6523 | 9984114.8    | 4        | 1
+DP-Optimizat    | 8          | 22     | UNSAT | 0.1239     | 3126.1       | 3        | 0
+DP-Optimizat    | 8          | 26     | UNSAT | 0.0090     | 302.8        | 2        | 1
+DPLL-First      | 8          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-First      | 8          | 6      | SAT   | 0.0003     | 2.7          | 1        | 0
+DPLL-First      | 8          | 10     | SAT   | 0.0009     | 5.2          | 1        | 0
+DPLL-First      | 8          | 14     | SAT   | 0.0061     | 10.7         | 3        | 0
+DPLL-First      | 8          | 18     | SAT   | 0.0048     | 12.3         | 2        | 0
+DPLL-First      | 8          | 22     | SAT   | 0.0039     | 18.0         | 2        | 1
+DPLL-First      | 8          | 26     | SAT   | 0.0120     | 25.5         | 6        | 5
+DPLL-Random     | 8          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-Random     | 8          | 6      | SAT   | 0.0003     | 2.7          | 1        | 0
+DPLL-Random     | 8          | 10     | SAT   | 0.0012     | 5.2          | 1        | 0
+DPLL-Random     | 8          | 14     | SAT   | 0.0058     | 9.9          | 2        | 0
+DPLL-Random     | 8          | 18     | SAT   | 0.0065     | 15.9         | 4        | 1
+DPLL-Random     | 8          | 22     | SAT   | 0.0032     | 15.9         | 3        | 0
+DPLL-Random     | 8          | 26     | SAT   | 0.0041     | 18.2         | 3        | 0
+DPLL-MOMS       | 8          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-MOMS       | 8          | 6      | SAT   | 0.0004     | 2.7          | 1        | 0
+DPLL-MOMS       | 8          | 10     | SAT   | 0.0008     | 5.2          | 1        | 0
+DPLL-MOMS       | 8          | 14     | SAT   | 0.0050     | 10.0         | 3        | 0
+DPLL-MOMS       | 8          | 18     | SAT   | 0.0029     | 11.6         | 2        | 0
+DPLL-MOMS       | 8          | 22     | SAT   | 0.0029     | 17.8         | 2        | 0
+DPLL-MOMS       | 8          | 26     | SAT   | 0.0033     | 15.6         | 2        | 0
+DPLL-VSIDS      | 8          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DPLL-VSIDS      | 8          | 6      | SAT   | 0.0003     | 2.9          | 1        | 0
+DPLL-VSIDS      | 8          | 10     | SAT   | 0.0009     | 5.5          | 1        | 0
+DPLL-VSIDS      | 8          | 14     | SAT   | 0.0035     | 10.3         | 3        | 0
+DPLL-VSIDS      | 8          | 18     | SAT   | 0.0024     | 11.9         | 2        | 0
+DPLL-VSIDS      | 8          | 22     | SAT   | 0.0027     | 18.3         | 2        | 0
+DPLL-VSIDS      | 8          | 26     | SAT   | 0.0029     | 16.1         | 2        | 0
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 2/2 SAT (100.0%), 0/200.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-Random: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-MOMS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+  DPLL-VSIDS: 7/7 SAT (100.0%), 0/700.0% UNSAT
+
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 3          | 2      | SAT   | 0.0001     | 2.3          | 1        | 0
+Rezolutie       | 3          | 6      | UNSAT | 0.0049     | 21.2         | 51       | 0
+DP-Optimizat    | 3          | 2      | SAT   | 0.0001     | 1.3          | 0        | 0
+DP-Optimizat    | 3          | 6      | UNSAT | 0.0011     | 10.4         | 2        | 1
+DP-Optimizat    | 3          | 10     | UNSAT | 0.0025     | 37.8         | 2        | 1
+DP-Optimizat    | 3          | 14     | UNSAT | 0.0023     | 37.8         | 2        | 1
+DP-Optimizat    | 3          | 18     | UNSAT | 0.0023     | 37.8         | 2        | 1
+DP-Optimizat    | 3          | 22     | UNSAT | 0.0023     | 37.8         | 2        | 1
+DP-Optimizat    | 3          | 26     | UNSAT | 0.0023     | 37.8         | 2        | 1
+DPLL-First      | 3          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-First      | 3          | 6      | SAT   | 0.0006     | 4.4          | 1        | 0
+DPLL-First      | 3          | 10     | UNSAT | 0.0024     | 6.8          | 3        | 7
+DPLL-First      | 3          | 14     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-First      | 3          | 18     | UNSAT | 0.0023     | 6.7          | 3        | 7
+DPLL-First      | 3          | 22     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-First      | 3          | 26     | UNSAT | 0.0028     | 6.7          | 3        | 7
+DPLL-Random     | 3          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-Random     | 3          | 6      | SAT   | 0.0017     | 6.0          | 2        | 3
+DPLL-Random     | 3          | 10     | UNSAT | 0.0026     | 6.7          | 3        | 7
+DPLL-Random     | 3          | 14     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-Random     | 3          | 18     | UNSAT | 0.0027     | 6.7          | 3        | 7
+DPLL-Random     | 3          | 22     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-Random     | 3          | 26     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-MOMS       | 3          | 2      | SAT   | 0.0000     | 0.8          | 0        | 0
+DPLL-MOMS       | 3          | 6      | SAT   | 0.0005     | 4.4          | 1        | 0
+DPLL-MOMS       | 3          | 10     | UNSAT | 0.0025     | 6.7          | 3        | 7
+DPLL-MOMS       | 3          | 14     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-MOMS       | 3          | 18     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-MOMS       | 3          | 22     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-MOMS       | 3          | 26     | UNSAT | 0.0024     | 6.7          | 3        | 7
+DPLL-VSIDS      | 3          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-VSIDS      | 3          | 6      | SAT   | 0.0005     | 4.6          | 1        | 0
+DPLL-VSIDS      | 3          | 10     | UNSAT | 0.0028     | 7.0          | 3        | 7
+DPLL-VSIDS      | 3          | 14     | UNSAT | 0.0028     | 7.0          | 3        | 7
+DPLL-VSIDS      | 3          | 18     | UNSAT | 0.0025     | 6.9          | 3        | 7
+DPLL-VSIDS      | 3          | 22     | UNSAT | 0.0032     | 6.9          | 3        | 7
+DPLL-VSIDS      | 3          | 26     | UNSAT | 0.0032     | 6.9          | 3        | 7
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 1/2 SAT (50.0%), 1/200.0% UNSAT
+  DP-Optimizat: 1/7 SAT (14.3%), 6/700.0% UNSAT
+  DPLL-First: 2/7 SAT (28.6%), 5/700.0% UNSAT
+  DPLL-Random: 2/7 SAT (28.6%), 5/700.0% UNSAT
+  DPLL-MOMS: 2/7 SAT (28.6%), 5/700.0% UNSAT
+  DPLL-VSIDS: 2/7 SAT (28.6%), 5/700.0% UNSAT
+
+REZULTATE COMPARATIVE
+----------------------------------------------------------------------------------------------------
+Algoritm        | Variabile  | Clauze | SAT   | Timp (s)   | Memorie (KB) | Decizii  | Backtracks
+----------------------------------------------------------------------------------------------------
+Rezolutie       | 6          | 2      | SAT   | 0.0001     | 1.2          | 0        | 0
+Rezolutie       | 6          | 6      | UNSAT | 53.3545    | 4332.0       | 4590     | 0
+DP-Optimizat    | 6          | 2      | SAT   | 0.0001     | 1.8          | 0        | 0
+DP-Optimizat    | 6          | 6      | UNSAT | 0.0016     | 5.0          | 6        | 0
+DP-Optimizat    | 6          | 10     | SAT   | 0.0010     | 11.4         | 3        | 0
+DP-Optimizat    | 6          | 14     | UNSAT | 25.6701    | 341234.9     | 4        | 1
+DP-Optimizat    | 6          | 18     | UNSAT | 0.2497     | 5437.3       | 3        | 1
+DP-Optimizat    | 6          | 22     | SAT   | 1.7805     | 28168.6      | 3        | 0
+DP-Optimizat    | 6          | 26     | UNSAT | 0.4460     | 5775.0       | 3        | 0
+DPLL-First      | 6          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-First      | 6          | 6      | SAT   | 0.0009     | 5.0          | 3        | 0
+DPLL-First      | 6          | 10     | SAT   | 0.0016     | 4.2          | 1        | 0
+DPLL-First      | 6          | 14     | SAT   | 0.0035     | 8.6          | 3        | 0
+DPLL-First      | 6          | 18     | SAT   | 0.0063     | 15.8         | 3        | 1
+DPLL-First      | 6          | 22     | SAT   | 0.0114     | 23.0         | 5        | 3
+DPLL-First      | 6          | 26     | UNSAT | 0.0281     | 24.7         | 4        | 9
+DPLL-Random     | 6          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-Random     | 6          | 6      | SAT   | 0.0006     | 4.4          | 2        | 0
+DPLL-Random     | 6          | 10     | SAT   | 0.0012     | 4.2          | 1        | 0
+DPLL-Random     | 6          | 14     | SAT   | 0.0040     | 13.3         | 3        | 1
+DPLL-Random     | 6          | 18     | SAT   | 0.0052     | 12.2         | 4        | 0
+DPLL-Random     | 6          | 22     | SAT   | 0.0219     | 19.8         | 5        | 5
+DPLL-Random     | 6          | 26     | UNSAT | 0.0265     | 21.2         | 4        | 9
+DPLL-MOMS       | 6          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-MOMS       | 6          | 6      | SAT   | 0.0009     | 5.6          | 2        | 0
+DPLL-MOMS       | 6          | 10     | SAT   | 0.0010     | 4.2          | 1        | 0
+DPLL-MOMS       | 6          | 14     | SAT   | 0.0025     | 8.4          | 2        | 0
+DPLL-MOMS       | 6          | 18     | SAT   | 0.0037     | 11.4         | 2        | 0
+DPLL-MOMS       | 6          | 22     | SAT   | 0.0049     | 12.9         | 2        | 0
+DPLL-MOMS       | 6          | 26     | UNSAT | 0.0177     | 20.9         | 3        | 7
+DPLL-VSIDS      | 6          | 2      | SAT   | 0.0001     | 0.8          | 0        | 0
+DPLL-VSIDS      | 6          | 6      | SAT   | 0.0022     | 6.0          | 2        | 0
+DPLL-VSIDS      | 6          | 10     | SAT   | 0.0010     | 4.5          | 1        | 0
+DPLL-VSIDS      | 6          | 14     | SAT   | 0.0026     | 8.6          | 2        | 0
+DPLL-VSIDS      | 6          | 18     | SAT   | 0.0031     | 11.9         | 2        | 0
+DPLL-VSIDS      | 6          | 22     | SAT   | 0.0070     | 13.3         | 2        | 0
+DPLL-VSIDS      | 6          | 26     | UNSAT | 0.0176     | 21.5         | 4        | 9
+
+Distribuție SAT/UNSAT pentru fiecare algoritm:
+  Rezolutie: 1/2 SAT (50.0%), 1/200.0% UNSAT
+  DP-Optimizat: 3/7 SAT (42.9%), 4/700.0% UNSAT
+  DPLL-First: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-Random: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-MOMS: 6/7 SAT (85.7%), 1/700.0% UNSAT
+  DPLL-VSIDS: 6/7 SAT (85.7%), 1/700.0% UNSAT
